@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#how-many-months{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: fit-content;
+}
+
+.form-card{
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+border: 10px solid rgb(194, 134, 22) ;
+}
+
+#card-new{
+border: 10px solid rgb(194, 134, 22) ;
+padding: 3px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 700px;
+height: fit-content;
+padding-bottom: 3px;
+}
+
+.form-card-contain{
+height: fit-content
+}
+
+
+.donation-home-page-font-thanks{
+
+text-align: center;
+color: orange;
+
+}
+
+#myChart{
+border: 10px solid rgb(194, 134, 22);
+}
+
+
+.Chart{
+position: relative;
+margin-right: auto;
+margin-left: auto;
+height: fit-content;
+width:600px;
+
+}
+
+.donation-home-page-font-text{
+position: relative;
+text-align: center;
+color: black;
+padding: 10px;
+
+}
+
+
+.home-page-name{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+color: rgb(194, 134, 22);
+font-family: 'Times New Roman', Times, serif;
+font-size: 70px;
+} 
+
+.our-message{
+color: white;
+border: 10px solid rgb(194, 134, 22) ;
+border-radius: 30px;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+position: relative;
+font-family: 'Times New Roman', Times, serif;
+font-size: 19px;
+} 
+
+#home-page-donate-button{
+margin-left: auto;
+margin-right: auto;
+}
+
+#modal-page{
+border: 10px solid rgb(194, 134, 22) ;
+}
+
+
+
+
+
+#exit{
+position: relative;
+left:95px;
+width: 300px;
+}
