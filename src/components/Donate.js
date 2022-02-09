@@ -86,7 +86,7 @@ class Donate extends PureComponent{
 											<Form.Label>Monthly payment amount</Form.Label>
 											<InputGroup className="mb-3">
 										    	<InputGroup.Text>$</InputGroup.Text>
-										  			<Form.Control placeholder="National average is $393.00/Month" type="number" value= {this.state.plan === "Aggressive" ? this.setState({yourMonthly: Math.round(393 * 2.25)})  : this.state.plan === "Moderate" ? this.setState({yourMonthly: Math.round(393 * 1.75)}) : this.state.plan === "Easy" ? this.setState({yourMonthly : Math.round(393 * 1.5)}) : this.setState({yourMonthly : null })} onChange={ this.handleInputChangeYourMonthly }  />
+										  			<Form.Control placeholder="National average is $393.00/Month" type="number" value= {this.state.yourMonthly} onChange={ this.handleInputChangeYourMonthly }  />
 										    		<InputGroup.Text>.00</InputGroup.Text>
 										  		</InputGroup>
 									  	</Form.Group>
