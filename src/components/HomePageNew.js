@@ -27,7 +27,7 @@ import axios from 'axios';
 		
 		componentDidMount() {
 			let proposedValues = [];
-			let proposedMonthly = this.state.plan === "Aggressive" ? Math.round(393 * 2.25)  : this.state.plan === "Moderate" ?  Math.round(393 * 1.75) : Math.round(393 * 1.5);
+			let proposedMonthly = this.state.plan === "Aggressive" ? Math.round(this.state.monthly * 2.25)  : this.state.plan === "Moderate" ?  Math.round(this.state.monthly * 1.75) : Math.round(this.state.monthly * 1.5);
 			// each plan option should calc monthly payment based on an increase in efficiency of paydown (2/8)
 
 			let months = [];
@@ -67,7 +67,7 @@ import axios from 'axios';
 								datasets: [
 									{ 
 										data: this.state.ourValues,
-										label: `Your ${this.props.plan} Plan`,
+										label: `Your Current Plan`,
 										borderColor: "#3e95cd",
 										backgroundColor: "#7bb6dd",
 									}, 
